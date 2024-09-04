@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Add Item" : {
+
+    },
     "An error occurred" : {
       "localizations" : {
         "nl" : {
@@ -11,6 +14,12 @@
         }
       }
     },
+    "Create a new to-do item by tapping the + button!" : {
+
+    },
+    "Done" : {
+
+    },
     "Home" : {
       "localizations" : {
         "nl" : {
@@ -20,6 +29,9 @@
           }
         }
       }
+    },
+    "New todo item" : {
+
     },
     "Ok" : {
       "localizations" : {
@@ -40,6 +52,12 @@
           }
         }
       }
+    },
+    "Todo item" : {
+
+    },
+    "Todo list" : {
+
     }
   },
   "version" : "1.0"
