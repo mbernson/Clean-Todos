@@ -10,6 +10,16 @@ import Factory
 
 extension Container {
 
+    // MARK: Todos
+
+    var todoItemRepository: Factory<TodoItemRepository> {
+        Factory(self) { TodoItemRepository(todoLocalDataSource: self.todoItemLocalDataSource()) }
+    }
+
+    var todoItemLocalDataSource: Factory<TodoItemLocalDataSource> {
+        Factory(self) { TodoItemLocalDataSource(inMemory: false) }.singleton
+    }
+
     // MARK: User
 
     var userRepository: Factory<UserRepositoryProtocol> {
