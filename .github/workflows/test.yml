@@ -5,8 +5,8 @@ on:
     branches: ["main"]
 
 env:
-  XCODE_PROJECT: TemplateApp.xcodeproj
-  SCHEME: TemplateApp
+  XCODE_PROJECT: TodoList.xcodeproj
+  SCHEME: TodoList
   TEST_PLAN: AllTests
   TEST_RESULT_BUNDLE: TestResults.xcresult
 
